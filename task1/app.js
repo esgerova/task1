@@ -22,6 +22,8 @@ let array = [
 ];
 
 
+//N:  taskin cavabi bu deyil. ☠
+
 let newArr= array.map((el)  => {
     let obj={
         id:el.id,
@@ -30,6 +32,9 @@ let newArr= array.map((el)  => {
     }
     return obj;
 })
+
+
+//N:  ✅
  
 const getUserName= (name) => {
   let foundObject = array.find((element) =>{
@@ -37,6 +42,5 @@ const getUserName= (name) => {
   })
   return foundObject
 }
-
 
 console.log(getUserName("Leanne Graham"))
